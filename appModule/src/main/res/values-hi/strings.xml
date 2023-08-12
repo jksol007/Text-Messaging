@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="rate_text">क्या आप इसे रेट करने के लिए कुछ समय देना चाहेंगे?\nइसमें एक मिनट से ज्यादा नहीं लगेगा..</string>
+    <string name="update_text">हमने आपके अनुभव को यथासंभव आसान बनाने के लिए कुछ नई सुविधाएं जोड़ी हैं और कुछ बग ठीक किए हैं.</string>
+
+    <string name="exit_warning">क्या आप निश्चित हैं आपकी बाहर निकलने की इच्छा है?</string>
+    <string name="exit_yes">हाँ</string>
+    <string name="exit_cancel">रद्द करना</string>
+    <string name="title_rate">ऐप का आनंद ले रहे हैं?</string>
+    <string name="rate_txt">हमें रेटिंग दें</string>
+    <string name="notkown">अभी नहीं</string>
+
+
+</resources>

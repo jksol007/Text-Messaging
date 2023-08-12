@@ -1,0 +1,67 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.onesignal.androidsdk.onesignal-gradle-plugin' version '0.14.0' apply false
+}
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+        buildConfigField "String", "API_KEY", "\"B8ejU74k19\""
+        buildConfigField "String", "BASE_URL1", "\"https://raw.githubusercontent.com/jksolapps/android/main/\""
+        buildConfigField "String", "BASE_URL2", "\"http://jksolapps.com/github/android/\""
+        buildConfigField "String", "FILEPATH", "\"00223b86-f579-4775-bb67-c75d8a633703.json\""
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.5.0'
+    implementation 'com.google.android.material:material:1.6.1'
+
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+//    implementation 'com.onesignal:OneSignal:4.7.2'
+
+    //for ads
+    implementation 'com.google.android.gms:play-services-ads:21.1.0'
+
+    //for api
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.7.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    //for encryption
+    implementation 'com.auth0:java-jwt:4.0.0'
+
+    // AppMetrica SDK.
+    implementation 'com.yandex.android:mobmetricalib:5.0.1'
+
+    //Appopen
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
+    //noinspection LifecycleAnnotationProcessorWithJava8
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.5.1"
+    implementation 'com.google.android.play:app-update-ktx:2.0.0'
+}

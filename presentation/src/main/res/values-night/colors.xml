@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="rating_bg_color">#192025</color>
+    <color name="rating_text_color">#ffffff</color>
+    <color name="rating_secondary_text_color">#9E9E9E</color>
+    <color name="black_and_white">#ffffff</color>
+
+    <color name="gray_text">#a4a4a4</color>
+    <color name="yellow">#ebce2b</color>
+
+    <color name="ads_install_color">@color/tools_theme</color>
+    <color name="ads_banner_bg">#181818</color>
+    <color name="ads_color_white">#000000</color>
+    <color name="ads_color_black">#FFFFFF</color>
+    <color name="ads_divider">#11FFFFFF</color>
+    <color name="search_background_color">#292625</color>
+    <color name="ac_black">#ffffff</color>
+    <color name="bg_white">#161616</color>
+    <color name="txt_black">#ffffff</color>
+    <color name="row_item_bg">#252525</color>
+    <color name="fab_back_white">#161616</color>
+    <color name="light_white">#334285F4</color>
+    <color name="drawer_txt">#CDCDCD</color>
+    <color name="drawer_icon">#CDCDCD</color>
+    <color name="msg_backg">#292625</color>
+    <color name="drawer_line">#33FFFFFF</color>
+    <color name="setting_text">#ffffff</color>
+    <color name="setting_back">#000000</color>
+    <color name="bg_col_white">#000000</color>
+    <color name="bg_setting">#000000</color>
+    <color name="line_light_lang">#252525</color>
+    <color name="bg_col_att">#12171a</color>
+    <color name="detail_bg">#000000</color>
+    <color name="detail_main_text">#DBDCDF</color>
+    <color name="detail_sub_text">#80FFFFFF</color>
+    <color name="action_icon_bg">#FFFFFF</color>
+    <color name="compo_bg">#000000</color>
+    <color name="compose">#000000</color>
+    <color name="drawer_back">#141414</color>
+    <color name="popup_back">#424242</color>
+    <color name="rat_sub_txt">#7D848E</color>
+    <color name="con_back">#232325</color>
+    <color name="con_for">#9B9B9B</color>
+</resources>

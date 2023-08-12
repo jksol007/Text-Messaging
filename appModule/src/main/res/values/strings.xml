@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="rate_text">would you mind taking a moment to rate it?\nIt won\'t take more than a minute.</string>
+    <string name="update_text">We added some new features and fix some bugs to make your experience as smooth as possible.</string>
+
+    <string name="exit_warning">Are you sure you want to exit?</string>
+    <string name="exit_yes">Yes</string>
+    <string name="exit_cancel">Cancel</string>
+    <string name="title_rate">Enjoying the app?</string>
+    <string name="rate_txt">Rate us</string>
+    <string name="notkown">Not now</string>
+
+<!--    <string name="admob_app_start_ads_id" translatable="false">ca-app-pub-2710573691140013/6165401211</string>-->
+    <string name="admob_app_start_ads_id" translatable="false">ca-app-pub-3940256099942544/3419835294</string>
+
+    <string name="admob_exit_native_ads_id" translatable="false"></string>
+
+</resources>

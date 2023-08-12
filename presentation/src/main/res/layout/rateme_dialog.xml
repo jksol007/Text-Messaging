@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rate_dialog_bg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/ad_bg_button"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="15dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_RateUs_Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="@string/do_you_like_messages"
+                android:textColor="@color/rating_text_color"
+                android:textSize="18sp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_msg_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="2dp"
+                android:paddingStart="17dp"
+                android:paddingEnd="10dp"
+                android:text="@string/help_us_improve_by_rating_the_app_and_letting_us_know_what_you_think"
+                android:textColor="@color/rating_secondary_text_color"
+                android:textSize="15sp" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="17dp"
+                android:numStars="5"
+                android:progressBackgroundTint="@color/gray_text"
+                android:progressTint="@color/yellow"
+                android:rating="3"
+                android:secondaryProgressTint="@color/yellow"
+                android:stepSize="1" />
+
+            <EditText
+                android:id="@+id/ratingEt"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginVertical="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/grey"
+                android:gravity="start"
+                android:hint="@string/leave_comment"
+                android:textColorHint="@color/gray_text"
+                android:inputType="textMultiLine"
+                android:padding="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/black" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp">
+
+                <com.text.messages.sms.emoji.common.widget.QkTextView
+                    android:id="@+id/btn_no_thanks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/btn_rate_app"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="10dp"
+                    android:text="@string/no_thanks"
+                    android:textAllCaps="false"
+                    android:textColor="@color/tools_theme"
+                    android:textSize="16sp" />
+
+
+                <com.text.messages.sms.emoji.common.widget.QkTextView
+                    android:id="@+id/btn_rate_app"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="10dp"
+                    android:text="@string/submit"
+                    android:textAllCaps="false"
+                    android:textColor="@color/tools_theme"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/symtomsimg"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shape_round"
+            android:padding="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_action_msg" />
+
+    </RelativeLayout>
+
+</RelativeLayout>-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ads_rounded_corner_bg"
+    android:backgroundTint="@color/popup_back"
+    android:padding="@dimen/_10sdp">
+
+    <ImageView
+        android:id="@+id/img_rate_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:src="@drawable/ic_action_cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/gray_text" />
+
+    <ImageView
+        android:id="@+id/img_rate_emoji"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="@dimen/_30sdp"
+        android:src="@drawable/rating_five"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.text.messages.sms.emoji.common.widget.MessagesTextView
+        android:id="@+id/txt_rate_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:text="@string/we_like"
+        android:textColor="@color/txt_black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_rate_emoji" />
+
+    <com.text.messages.sms.emoji.common.widget.MessagesTextView
+        android:id="@+id/txt_rate_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="@string/would_you_like_app"
+        android:textColor="@color/txt_black"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_rate_main" />
+
+    <com.text.messages.sms.emoji.common.widget.MessagesTextView
+        android:id="@+id/txt_rate_main_sub"
+        style="@style/TextSecondary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:gravity="center"
+        android:text="@string/feed_sub"
+        android:textColor="@color/rat_sub_txt"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_rate_sub" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:numStars="5"
+        android:progressBackgroundTint="@color/gray_text"
+        android:progressTint="@color/yellow"
+        android:rating="5"
+        android:secondaryProgressTint="@color/yellow"
+        android:stepSize="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_rate_main_sub" />
+
+
+    <com.text.messages.sms.emoji.common.widget.MessagesTextView
+        android:id="@+id/txt_rating_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:text="@string/the_best"
+        android:textColor="@color/txt_black"
+        app:layout_constraintEnd_toStartOf="@id/img_rating_text"
+        app:layout_constraintTop_toBottomOf="@id/ratingBar" />
+
+    <ImageView
+        android:id="@+id/img_rating_text"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:src="@drawable/feedback_star_select"
+        app:layout_constraintEnd_toEndOf="@id/ratingBar"
+        app:layout_constraintTop_toBottomOf="@id/ratingBar"
+        app:tint="@color/txt_black" />
+
+    <Button
+        android:id="@+id/btn_rate_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="@drawable/ads_rounded_corner_bg"
+        android:backgroundTint="@color/tools_theme"
+        android:text="@string/rate_now"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_rating_text" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_5sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_rate_feedback" />
+</androidx.constraintlayout.widget.ConstraintLayout>

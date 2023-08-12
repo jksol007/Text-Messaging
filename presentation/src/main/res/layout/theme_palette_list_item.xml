@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingVertical="10dp">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:columnCount="5"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/view1"
+                style="@style/ThemeParentView">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/color1"
+                    style="@style/ThemeRoundedImageView" />
+
+                <ImageView
+                    android:id="@+id/check1"
+                    style="@style/ThemeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/view2"
+                style="@style/ThemeParentView">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/color2"
+                    style="@style/ThemeRoundedImageView" />
+
+                <ImageView
+                    android:id="@+id/check2"
+                    style="@style/ThemeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/view3"
+                style="@style/ThemeParentView">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/color3"
+                    style="@style/ThemeRoundedImageView" />
+
+                <ImageView
+                    android:id="@+id/check3"
+                    style="@style/ThemeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/view4"
+                style="@style/ThemeParentView">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/color4"
+                    style="@style/ThemeRoundedImageView" />
+
+                <ImageView
+                    android:id="@+id/check4"
+                    style="@style/ThemeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/view5"
+                style="@style/ThemeParentView">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/color5"
+                    style="@style/ThemeRoundedImageView" />
+
+                <ImageView
+                    android:id="@+id/check5"
+                    style="@style/ThemeCheck" />
+
+            </RelativeLayout>
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:columnCount="5"
+            android:gravity="center">
+
+            <RelativeLayout
+                android:id="@+id/view6"
+                style="@style/ThemeParentView">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/color6"
+                    style="@style/ThemeRoundedImageView" />
+
+                <ImageView
+                    android:id="@+id/check6"
+                    style="@style/ThemeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/view7"
+                style="@style/ThemeParentView">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/color7"
+                    style="@style/ThemeRoundedImageView" />
+
+                <ImageView
+                    android:id="@+id/check7"
+                    style="@style/ThemeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/view8"
+                style="@style/ThemeParentView">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/color8"
+                    style="@style/ThemeRoundedImageView" />
+
+                <ImageView
+                    android:id="@+id/check8"
+                    style="@style/ThemeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/view9"
+                style="@style/ThemeParentView">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/color9"
+                    style="@style/ThemeRoundedImageView" />
+
+                <ImageView
+                    android:id="@+id/check9"
+                    style="@style/ThemeCheck" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/view10"
+                style="@style/ThemeParentView">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/color10"
+                    style="@style/ThemeRoundedImageView" />
+
+                <ImageView
+                    android:id="@+id/check10"
+                    style="@style/ThemeCheck" />
+
+            </RelativeLayout>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/divider" />
+
+</LinearLayout>

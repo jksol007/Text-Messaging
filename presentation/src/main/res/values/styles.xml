@@ -1,0 +1,199 @@
+<resources>
+
+    <style name="TextPrimary">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="textSize">primary</item>
+    </style>
+
+    <style name="TextSecondary">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="textSize">secondary</item>
+    </style>
+
+    <style name="TextTertiary">
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+        <item name="textSize">tertiary</item>
+    </style>
+
+    <style name="TextButton">
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">88dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textSize">secondary</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">56dp</item>
+
+        <!-- This needs to be set so that we can tint the toolbar and not change the background
+         resource. This is mainly so that QkReplyActivity can call setClipToOutline -->
+        <item name="android:background">@color/compo_bg</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ToolbarText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="textSize">toolbar</item>
+    </style>
+
+    <style name="PreferenceCategory">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_marginStart">72dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textColor">@color/setting_text</item>
+        <item name="textSize">secondary</item>
+    </style>
+
+
+    <style name="CollapsingToolbarCollapsedText">
+        <item name="textSize">toolbar</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CollapsingToolbarExpandedText">
+        <item name="android:textSize">44dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ScheduledSampleTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/rounded_rectangle_outline_22dp</item>
+        <item name="android:backgroundTint">?android:attr/divider</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">44dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="textSize">primary</item>
+    </style>
+
+    <style name="DrawerRow">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <style name="DrawerText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:lines">1</item>
+        <item name="android:textColor">@color/drawer_txt</item>
+        <!--<item name="android:textColor">?android:attr/textColorPrimary</item>-->
+        <item name="android:textStyle">bold</item>
+        <item name="textSize">secondary</item>
+    </style>
+
+    <style name="DrawerIcon">
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+    </style>
+
+    <style name="GdxTheme" parent="android:Theme">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="ThemeCheck">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@drawable/ic_check_white_24dp</item>
+        <item name="android:tint">@color/textPrimaryDark</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="ThemeRoundedImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:src">@color/black</item>
+        <item name="android:tint">@color/textPrimaryDark</item>
+        <item name="riv_corner_radius">300dp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="ThemeParentView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="circularImageview">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RemoveAppSplashTheme" parent="@style/AppLaunchTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="RoundedCornersDialog" parent="@style/Theme.MaterialComponents.Dialog">
+        <item name="dialogCornerRadius">16dp</item>
+    </style>
+    <style name="MaterialAlertDialog_rounded" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="shapeAppearanceOverlay">@style/DialogCorners</item>
+        <item name="android:background">@color/popup_back</item>
+        <item name="textColor">@color/txt_black</item>
+        <item name="android:textColor">@color/txt_black</item>
+        <item name="android:textColorPrimary">@color/txt_black</item>
+        <item name="textColorAlertDialogListItem">@color/txt_black</item>
+        <item name="android:textColorSecondary">@color/tools_theme</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MyTitle_MaterialAlertDialog.MaterialComponents.Title.Text</item>
+
+        <!-- Body -->
+        <item name="materialAlertDialogBodyTextStyle">@style/BodyTextAppearance.MaterialComponents.Body2</item>
+    </style>
+
+    <style name="DialogCorners">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+        <item name="textColor">@color/txt_black</item>
+        <item name="android:background">@color/popup_back</item>
+        <item name="android:textColor">@color/txt_black</item>
+        <item name="android:textColorPrimary">@color/txt_black</item>
+        <item name="textColorAlertDialogListItem">@color/txt_black</item>
+        <item name="android:textColorSecondary">@color/tools_theme</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MyTitle_MaterialAlertDialog.MaterialComponents.Title.Text</item>
+
+        <!-- Body -->
+        <item name="materialAlertDialogBodyTextStyle">@style/BodyTextAppearance.MaterialComponents.Body2</item>
+    </style>
+
+    <style name="MyTitle_MaterialAlertDialog.MaterialComponents.Title.Text" parent="@style/MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textColor">@color/txt_black</item>
+    </style>
+
+    <style name="BodyTextAppearance.MaterialComponents.Body2" parent="@style/MaterialAlertDialog.MaterialComponents.Body.Text">
+        <item name="android:textColor">@color/txt_black</item>
+    </style>
+</resources>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "697207499667",
+    "project_id": "smart-messages-s3",
+    "storage_bucket": "smart-messages-s3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697207499667:android:392430796b7449d022d666",
+        "android_client_info": {
+          "package_name": "com.chating.messages.text.messaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697207499667-49tvls8d91c92q500ugiifd6qhsn9e06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaYdtEZ98r8YmZiwgG5cL5R1b1A-EOsQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697207499667-49tvls8d91c92q500ugiifd6qhsn9e06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697207499667:android:392430796b7449d022d666",
+        "android_client_info": {
+          "package_name": "com.text.messages.sms.emoji"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697207499667-49tvls8d91c92q500ugiifd6qhsn9e06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaYdtEZ98r8YmZiwgG5cL5R1b1A-EOsQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697207499667-49tvls8d91c92q500ugiifd6qhsn9e06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

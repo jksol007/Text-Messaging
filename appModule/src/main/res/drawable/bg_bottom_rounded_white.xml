@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- solids that simulate shadow !-->
+
+    <item>
+        <shape>
+            <solid android:color="@color/shadow_1" />
+            <padding
+                android:bottom="0.5dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+            <corners
+                android:bottomLeftRadius="@dimen/_12sdp"
+                android:bottomRightRadius="@dimen/_12sdp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/shadow_2" />
+            <padding
+                android:bottom="0.5dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+            <corners
+                android:bottomLeftRadius="@dimen/_12sdp"
+                android:bottomRightRadius="@dimen/_12sdp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/shadow_3" />
+            <padding
+                android:bottom="0.5dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+            <corners
+                android:bottomLeftRadius="@dimen/_12sdp"
+                android:bottomRightRadius="@dimen/_12sdp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@color/shadow_4" />
+            <padding
+                android:bottom="0.5dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+            <corners
+                android:bottomLeftRadius="@dimen/_12sdp"
+                android:bottomRightRadius="@dimen/_12sdp" />
+        </shape>
+    </item>
+
+    <!-- main background !-->
+    <item>
+        <shape>
+            <solid android:color="@color/exit_ads_background_color" />
+            <corners
+                android:bottomLeftRadius="@dimen/_12sdp"
+                android:bottomRightRadius="@dimen/_12sdp" />
+        </shape>
+    </item>
+
+
+</layer-list>

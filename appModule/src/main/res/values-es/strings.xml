@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="rate_text">¿Te importaría tomarte un momento para calificarlo??\nNo tomará más de un minuto.</string>
+    <string name="update_text">Agregamos algunas funciones nuevas y solucionamos algunos errores para que su experiencia sea lo más fluida posible..</string>
+
+    <string name="exit_warning">¿Estás segura de que quieres salir?</string>
+    <string name="exit_yes">Sí</string>
+    <string name="exit_cancel">Cancelar</string>
+    <string name="title_rate">Disfrutando de la aplicación?</string>
+    <string name="rate_txt">Nos califica</string>
+    <string name="notkown">no ahora</string>
+
+
+
+
+</resources>

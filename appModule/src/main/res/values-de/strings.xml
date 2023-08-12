@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="rate_text">Würden Sie sich einen Moment Zeit nehmen, um es zu bewerten??\nEs dauert nicht länger als eine Minute.</string>
+    <string name="update_text">Wir haben einige neue Funktionen hinzugefügt und einige Fehler behoben, um Ihre Erfahrung so reibungslos wie möglich zu gestalten.</string>
+
+    <string name="exit_warning">Sie sind sicher, dass Sie beenden wollen?</string>
+    <string name="exit_yes">Ja</string>
+    <string name="exit_cancel">Absagen</string>
+    <string name="title_rate">Enjoying the app?</string>
+    <string name="rate_txt">Rate us</string>
+    <string name="notkown">Not now</string>
+
+
+</resources>

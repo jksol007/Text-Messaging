@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="drawerfeedback">Feedback</string>
+    <string name="drawer_rate_us">Rate Us</string>
+    <string name="get_start">Get Start</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="sender_doesn_t_support_replies">Sender doesn\'t support replies</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="contacts">Contacts</string>
+    <string name="location">Location</string>
+    <string name="schedule_message">Schedule Message</string>
+    <string name="drawer_language">Language</string>
+</resources>

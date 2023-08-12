@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    tools:context=".feature.main.GetStartActivity">
+
+    <ImageView
+        android:id="@+id/img_start_icon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:src="@drawable/ic_launcher_msg"
+        app:layout_constraintBottom_toTopOf="@id/txt_start_title_s"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.text.messages.sms.emoji.common.widget.MessagesTextView
+        android:id="@+id/txt_start_title_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/ac_black"
+        android:textSize="@dimen/_25sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/chkByClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:backgroundTint="@color/tools_theme"
+        android:buttonTint="@color/tools_theme"
+        android:gravity="start"
+        android:lineSpacingExtra="@dimen/_3sdp"
+        android:text="@string/by_taaping"
+        android:textColor="@color/con_for"
+        android:textColorHighlight="@color/transparent"
+        android:textSize="@dimen/_10sdp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_get_start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.text.messages.sms.emoji.common.widget.MessagesTextView
+        android:id="@+id/txt_start_privacy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="@string/privacy_policy"
+        android:textColor="@color/ads_install_color"
+        android:textSize="@dimen/_10sdp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@id/btn_get_start"
+        app:layout_constraintStart_toStartOf="@id/chkByClick"
+        android:layout_marginStart="@dimen/_27sdp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_get_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_50sdp"
+        android:background="@drawable/ads_rounded_corner_bg"
+        android:text="@string/button_continue"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

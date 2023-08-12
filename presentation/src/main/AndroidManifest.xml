@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.text.messages.sms.emoji">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="com.text.messages.sms.emoji.common.MessagesApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppLaunchTheme">
+        <activity
+            android:name=".feature.main.LanguageActivity"
+            android:screenOrientation="portrait"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".feature.main.GetStartActivity"
+            android:screenOrientation="portrait"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.chating.messages.feature.main.Splash_demo"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+        <activity
+            android:name=".feature.main.MainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.text.messages.sms.emoji.feature.compose.ComposeActivity"
+            android:exported="true"
+            android:parentActivityName=".feature.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SENDTO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+                <data android:scheme="sms_body" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/x-vcard" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.chooser.chooser_target_service"
+                android:value=".common.util.QkChooserTargetService" />
+        </activity>
+        <activity android:name="com.text.messages.sms.emoji.feature.settings.SettingsActivity" />
+        <activity android:name="com.text.messages.sms.emoji.feature.plus.PlusActivity" />
+        <activity android:name="com.text.messages.sms.emoji.feature.gallery.GalleryActivity" />
+        <activity android:name="com.text.messages.sms.emoji.feature.conversationinfo.ConversationInfoActivity" />
+        <activity android:name="com.text.messages.sms.emoji.feature.notificationprefs.NotificationPrefsActivity" />
+        <activity android:name="com.text.messages.sms.emoji.feature.blocking.BlockingActivity" />
+        <activity
+            android:name="com.text.messages.sms.emoji.feature.messagesreply.MessagesReplyActivity"
+            android:excludeFromRecents="true"
+            android:taskAffinity=""
+            android:theme="@style/AppThemeDialog"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.text.messages.sms.emoji.feature.scheduled.ScheduledActivity" />
+        <activity android:name="com.text.messages.sms.emoji.feature.backup.BackupActivity" />
+        <activity android:name="com.text.messages.sms.emoji.feature.contacts.ContactsActivity" />
+
+        <receiver
+            android:name="com.text.messages.sms.emoji.receiver.BootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.text.messages.sms.emoji.receiver.DefaultSmsChangedReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.action.DEFAULT_SMS_PACKAGE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.text.messages.sms.emoji.receiver.DeleteMessagesReceiver" />
+        <receiver
+            android:name="com.text.messages.sms.emoji.receiver.SmsReceiver"
+            android:exported="true"
+            android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.text.messages.sms.emoji.receiver.MmsReceiver"
+            android:exported="true"
+            android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.text.messages.sms.emoji.receiver.SmsSentReceiver" />
+        <receiver android:name="com.text.messages.sms.emoji.receiver.SmsDeliveredReceiver" />
+        <receiver
+            android:name="com.text.messages.sms.emoji.receiver.MmsSentReceiver"
+            android:taskAffinity="com.moez.QKSMS.MMS_SENT" />
+        <receiver
+            android:name="com.text.messages.sms.emoji.receiver.MmsUpdatedReceiver"
+            android:taskAffinity="com.moez.QKSMS.MMS_UPDATED" />
+        <receiver
+            android:name="com.text.messages.sms.emoji.receiver.MmsReceivedReceiver"
+            android:taskAffinity="com.klinker.android.messaging.MMS_RECEIVED" />
+        <receiver android:name="com.text.messages.sms.emoji.receiver.MarkArchivedReceiver" />
+        <receiver android:name="com.text.messages.sms.emoji.receiver.BlockThreadReceiver" />
+        <receiver android:name="com.text.messages.sms.emoji.receiver.MarkSeenReceiver" />
+        <receiver android:name="com.text.messages.sms.emoji.receiver.MarkReadReceiver" />
+        <receiver android:name="com.text.messages.sms.emoji.receiver.RemoteMessagingReceiver" />
+        <receiver android:name="com.text.messages.sms.emoji.receiver.NightModeReceiver" />
+        <receiver
+            android:name="com.text.messages.sms.emoji.receiver.SmsProviderChangedReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.action.EXTERNAL_PROVIDER_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.text.messages.sms.emoji.receiver.SendScheduledMessageReceiver" />
+        <receiver
+            android:name="com.text.messages.sms.emoji.feature.widget.WidgetProvider"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.moez.QKSMS.intent.action.ACTION_NOTIFY_DATASET_CHANGED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+        <receiver android:name="com.text.messages.sms.emoji.receiver.SendSmsReceiver" />
+
+        <service android:name="com.android.mms.transaction.TransactionService" />
+        <service android:name="com.text.messages.sms.emoji.feature.backup.RestoreBackupService" />
+        <service
+            android:name="com.text.messages.sms.emoji.feature.widget.WidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service
+            android:name="com.text.messages.sms.emoji.service.AutoDeleteService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.text.messages.sms.emoji.service.HeadlessSmsSendService"
+            android:exported="true"
+            android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.text.messages.sms.emoji.common.util.MessagesChooserTargetService"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.chooser.ChooserTargetService" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.callcontrol.datashare.messaging"
+            android:value="true" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+    </application>
+
+</manifest>

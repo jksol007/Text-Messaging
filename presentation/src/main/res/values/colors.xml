@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="ic_launcher_background">#0195D5</color>
+
+    <color name="rating_bg_color">#FFFFFF</color>
+    <color name="rating_text_color">#000000</color>
+    <color name="rating_secondary_text_color">#000000</color>
+
+    <color name="gray_text">#a4a4a4</color>
+    <color name="yellow">#ebce2b</color>
+    <color name="grey">#FAFAFA</color>
+
+    <color name="black">#000000</color>
+    <color name="black_and_white">#000000</color>
+    <color name="ac_black">#000000</color>
+
+    <color name="rippleLight">#1f000000</color>
+    <color name="transparent">#000000</color>
+    <color name="rippleDark">#33ffffff</color>
+
+    <color name="toolbarLight">#FFFFFF</color>
+    <color name="toolbarDark">#1d262b</color>
+    <color name="toolbarTranslucent">#88000000</color>
+
+    <color name="backgroundLight">#FFFFFF</color>
+    <!--<color name="backgroundDark">#192025</color>-->
+    <color name="backgroundDark">#000000</color>
+
+    <color name="toolbarSearchBackgroundLight">#0D000000</color>
+
+    <color name="textPrimary">#49555F</color>
+    <color name="textPrimaryDisabled">#4C49555F</color>
+    <color name="textSecondary">#70808D</color>
+    <color name="textSecondaryDisabled">#4C70808D</color>
+    <color name="textTertiary">#B7B9C0</color>
+
+    <color name="textPrimaryDark">#FFFFFFFF</color>
+    <color name="textPrimaryDisabledDark">#7FFFFFFF</color>
+    <color name="textSecondaryDark">#ccffffff</color>
+    <color name="textSecondaryDisabledDark">#67ffffff</color>
+    <color name="textTertiaryDark">#80ffffff</color>
+
+    <color name="bubbleLight">#ECEFF1</color>
+    <color name="bubbleDark">#11171B</color>
+    <color name="bubbleBlack">#0F1113</color>
+
+    <color name="separatorLight">#0C000000</color>
+    <color name="separatorDark">#1AFFFFFF</color>
+
+    <color name="switchThumbEnabledLight">#ECECEC</color>
+    <color name="switchThumbEnabledDark">#B9B9B9</color>
+
+    <color name="switchTrackEnabledLight">#A6A6A6</color>
+    <color name="switchTrackEnabledDark">#646464</color>
+
+    <color name="switchThumbDisabledLight">#B9B9B9</color>
+    <color name="switchThumbDisabledDark">#595959</color>
+
+    <color name="switchTrackDisabledLight">#D6D6D6</color>
+    <color name="switchTrackDisabledDark">#383838</color>
+
+    <!-- This colour should only ever be used for attrs with the tools tag -->
+    <!--<color name="tools_theme">#0094D2</color>-->
+    <color name="tools_theme">#4285F4</color>
+    <color name="rate_dialog_bg">#00B6B6B6</color>
+
+    <array name="random_colors">
+        <item>#06C9AF</item>
+        <item>#6DC966</item>
+        <item>#F1AF28</item>
+        <item>#FF8963</item>
+        <item>#FF6969</item>
+        <item>#5D99FF</item>
+        <item>#8899EC</item>
+    </array>
+
+    <array name="material_red">
+        <item>#FFEBEE</item>
+        <item>#FFCDD2</item>
+        <item>#EF9A9A</item>
+        <item>#E57373</item>
+        <item>#EF5350</item>
+        <item>#F44336</item>
+        <item>#E53935</item>
+        <item>#D32F2F</item>
+        <item>#C62828</item>
+        <item>#B71C1C</item>
+    </array>
+
+    <array name="material_pink">
+        <item>#FCE4EC</item>
+        <item>#F8BBD0</item>
+        <item>#F48FB1</item>
+        <item>#F06292</item>
+        <item>#EC407A</item>
+        <item>#E91E63</item>
+        <item>#D81B60</item>
+        <item>#C2185B</item>
+        <item>#AD1457</item>
+        <item>#880E4F</item>
+    </array>
+
+    <array name="material_purple">
+        <item>#F3E5F5</item>
+        <item>#E1BEE7</item>
+        <item>#CE93D8</item>
+        <item>#BA68C8</item>
+        <item>#AB47BC</item>
+        <item>#9C27B0</item>
+        <item>#8E24AA</item>
+        <item>#7B1FA2</item>
+        <item>#6A1B9A</item>
+        <item>#4A148C</item>
+    </array>
+
+    <array name="material_deep_purple">
+        <item>#EDE7F6</item>
+        <item>#D1C4E9</item>
+        <item>#B39DDB</item>
+        <item>#9575CD</item>
+        <item>#7E57C2</item>
+        <item>#673AB7</item>
+        <item>#5E35B1</item>
+        <item>#512DA8</item>
+        <item>#4527A0</item>
+        <item>#311B92</item>
+    </array>
+
+    <array name="material_indigo">
+        <item>#E8EAF6</item>
+        <item>#C5CAE9</item>
+        <item>#9FA8DA</item>
+        <item>#7986CB</item>
+        <item>#5C6BC0</item>
+        <item>#3F51B5</item>
+        <item>#3949AB</item>
+        <item>#303F9F</item>
+        <item>#283593</item>
+        <item>#1A237E</item>
+    </array>
+
+    <array name="material_blue">
+        <item>#E3F2FD</item>
+        <item>#BBDEFB</item>
+        <item>#90CAF9</item>
+        <item>#64B5F6</item>
+        <item>#42A5F5</item>
+        <item>#2196F3</item>
+        <item>#1E88E5</item>
+        <item>#1976D2</item>
+        <item>#1565C0</item>
+        <item>#0D47A1</item>
+    </array>
+
+    <array name="material_light_blue">
+        <item>#E1F5FE</item>
+        <item>#B3E5FC</item>
+        <item>#81D4FA</item>
+        <item>#4FC3F7</item>
+        <item>#29B6F6</item>
+        <item>#03A9F4</item>
+        <item>#039BE5</item>
+        <item>#0288D1</item>
+        <item>#0277BD</item>
+        <item>#01579B</item>
+    </array>
+
+    <array name="material_cyan">
+        <item>#E0F7FA</item>
+        <item>#B2EBF2</item>
+        <item>#80DEEA</item>
+        <item>#4DD0E1</item>
+        <item>#26C6DA</item>
+        <item>#00BCD4</item>
+        <item>#00ACC1</item>
+        <item>#0097A7</item>
+        <item>#00838F</item>
+        <item>#006064</item>
+    </array>
+
+    <array name="material_teal">
+        <item>#E0F2F1</item>
+        <item>#B2DFDB</item>
+        <item>#80CBC4</item>
+        <item>#4DB6AC</item>
+        <item>#26A69A</item>
+        <item>#009688</item>
+        <item>#00897B</item>
+        <item>#00796B</item>
+        <item>#00695C</item>
+        <item>#004D40</item>
+    </array>
+
+    <array name="material_green">
+        <item>#E8F5E9</item>
+        <item>#C8E6C9</item>
+        <item>#A5D6A7</item>
+        <item>#81C784</item>
+        <item>#66BB6A</item>
+        <item>#4CAF50</item>
+        <item>#43A047</item>
+        <item>#388E3C</item>
+        <item>#2E7D32</item>
+        <item>#1B5E20</item>
+    </array>
+
+    <array name="material_light_green">
+        <item>#F1F8E9</item>
+        <item>#DCEDC8</item>
+        <item>#C5E1A5</item>
+        <item>#AED581</item>
+        <item>#9CCC65</item>
+        <item>#8BC34A</item>
+        <item>#7CB342</item>
+        <item>#689F38</item>
+        <item>#558B2F</item>
+        <item>#33691E</item>
+    </array>
+
+    <array name="material_lime">
+        <item>#F9FBE7</item>
+        <item>#F0F4C3</item>
+        <item>#E6EE9C</item>
+        <item>#DCE775</item>
+        <item>#D4E157</item>
+        <item>#CDDC39</item>
+        <item>#C0CA33</item>
+        <item>#AFB42B</item>
+        <item>#9E9D24</item>
+        <item>#827717</item>
+    </array>
+
+    <array name="material_yellow">
+        <item>#FFFDE7</item>
+        <item>#FFF9C4</item>
+        <item>#FFF59D</item>
+        <item>#FFF176</item>
+        <item>#FFEE58</item>
+        <item>#FFEB3B</item>
+        <item>#FDD835</item>
+        <item>#FBC02D</item>
+        <item>#F9A825</item>
+        <item>#F57F17</item>
+    </array>
+
+    <array name="material_amber">
+        <item>#FFF8E1</item>
+        <item>#FFECB3</item>
+        <item>#FFE082</item>
+        <item>#FFD54F</item>
+        <item>#FFCA28</item>
+        <item>#FFC107</item>
+        <item>#FFB300</item>
+        <item>#FFA000</item>
+        <item>#FF8F00</item>
+        <item>#FF6F00</item>
+    </array>
+
+    <array name="material_orange">
+        <item>#FFF3E0</item>
+        <item>#FFE0B2</item>
+        <item>#FFCC80</item>
+        <item>#FFB74D</item>
+        <item>#FFA726</item>
+        <item>#FF9800</item>
+        <item>#FB8C00</item>
+        <item>#F57C00</item>
+        <item>#EF6C00</item>
+        <item>#E65100</item>
+    </array>
+
+    <array name="material_deep_orange">
+        <item>#FBE9E7</item>
+        <item>#FFCCBC</item>
+        <item>#FFAB91</item>
+        <item>#FF8A65</item>
+        <item>#FF7043</item>
+        <item>#FF5722</item>
+        <item>#F4511E</item>
+        <item>#E64A19</item>
+        <item>#D84315</item>
+        <item>#BF360C</item>
+    </array>
+
+    <array name="material_brown">
+        <item>#EFEBE9</item>
+        <item>#D7CCC8</item>
+        <item>#BCAAA4</item>
+        <item>#A1887F</item>
+        <item>#8D6E63</item>
+        <item>#795548</item>
+        <item>#6D4C41</item>
+        <item>#5D4037</item>
+        <item>#4E342E</item>
+        <item>#3E2723</item>
+    </array>
+
+    <array name="material_gray">
+        <item>#FAFAFA</item>
+        <item>#F5F5F5</item>
+        <item>#EEEEEE</item>
+        <item>#E0E0E0</item>
+        <item>#BDBDBD</item>
+        <item>#9E9E9E</item>
+        <item>#757575</item>
+        <item>#616161</item>
+        <item>#424242</item>
+        <item>#212121</item>
+    </array>
+
+    <array name="material_blue_gray">
+        <item>#ECEFF1</item>
+        <item>#CFD8DC</item>
+        <item>#B0BEC5</item>
+        <item>#90A4AE</item>
+        <item>#78909C</item>
+        <item>#607D8B</item>
+        <item>#546E7A</item>
+        <item>#455A64</item>
+        <item>#37474F</item>
+        <item>#263238</item>
+    </array>
+
+    <array name="material_default">
+        <item>#4285F4</item>
+    </array>
+
+    <color name="ads_install_color">@color/tools_theme</color>
+    <color name="ads_banner_bg">#F9F9F9</color>
+    <color name="ads_color_black">#000000</color>
+    <color name="ads_color_white">#FFFFFF</color>
+    <color name="ads_divider">#11000000</color>
+    <color name="search_background_color">#FFFFFF</color>
+
+    <color name="trans">#00000000</color>
+    <color name="bg_white">#FFFFFF</color>
+    <color name="txt_black">#000000</color>
+    <color name="text_color_lang">@color/white</color>
+    <color name="row_item_bg">#FFFFFF</color>
+    <color name="md_divider_black">#1D1C1C</color>
+
+    <color name="color_uruguay">#3f74ce</color>
+    <color name="color_latvia">#a30017</color>
+    <color name="color_kazakhstan">#83c4d3</color>
+    <color name="color_chile">#d90022</color>
+    <color name="color_brazil">#00a757</color>
+    <color name="color_belarus">#bb1a20</color>
+    <color name="color_venezuela">#0051b5</color>
+    <color name="color_united_states">#3c416d</color>
+    <color name="color_united_kingdom">#202b6c</color>
+    <color name="color_switzerlan">#dc1414</color>
+    <color name="color_spain">#fec40d</color>
+    <color name="color_south_africa">#6da742</color>
+    <color name="color_slovenia">#0051b5</color>
+    <color name="color_slovakia">#d90022</color>
+    <color name="color_serbia">#bb2727</color>
+    <color name="color_russia">#0054b6</color>
+    <color name="color_romania">#ffdb42</color>
+    <color name="color_portugal">#00944c</color>
+    <color name="color_poland">#dc1414</color>
+    <color name="color_peru">#d90022</color>
+    <color name="color_paraguay">#0051b5</color>
+    <color name="color_panama">#0051b5</color>
+    <color name="color_norway">#3c416d</color>
+    <color name="color_nigeria">#57a057</color>
+    <color name="color_nicaragua">#3f459c</color>
+    <color name="color_netherlands">#a30017</color>
+    <color name="color_montenegro">#c93f4a</color>
+    <color name="color_moldova">#ffe25a</color>
+    <color name="color_mexico">#006845</color>
+    <color name="color_malta">#d90022</color>
+    <color name="color_macedonia">#ffdb42</color>
+    <color name="color_luxembourg">#3fc1e4</color>
+    <color name="color_lithuania">#f7bc35</color>
+    <color name="color_liechtenstein">#ff4a54</color>
+    <color name="color_italy">#00b664</color>
+    <color name="color_ireland">#29b349</color>
+    <color name="color_india">#FF9933</color>
+    <color name="color_hungary">#c21313</color>
+    <color name="color_greece">#3370cb</color>
+    <color name="color_germany">#dc1414</color>
+    <color name="color_france">#1b479c</color>
+    <color name="color_estonia">#3370cb</color>
+    <color name="color_ecuador">#3f459c</color>
+    <color name="color_denmark">#dc1414</color>
+    <color name="color_czech">#3c416d</color>
+    <color name="color_croatia">#dc1414</color>
+    <color name="color_costa_rica">#d90022</color>
+    <color name="color_colombia">#ffdb42</color>
+    <color name="color_canada">#d90022</color>
+    <color name="color_bulgaria">#476e29</color>
+    <color name="color_bosnia">#f6c851</color>
+    <color name="color_belgium">#ffd82a</color>
+    <color name="color_bangladesh">#dc1414</color>
+    <color name="color_austria">#d90022</color>
+    <color name="color_australia">#1432a7</color>
+    <color name="color_argentina">#3fc1e4</color>
+    <color name="color_albania">#dc1414</color>
+    <color name="color_grey_dark">#aaa</color>
+    <color name="fab_back_white">#EAEFF9</color>
+    <color name="light_white">#EAEFF9</color>
+    <color name="drawer_txt">#5F6368</color>
+    <color name="drawer_icon">#555555</color>
+    <!--<color name="drawer_icon">#17171A</color>-->
+    <color name="drawer_line">#33262626</color>
+    <color name="msg_backg">#F2F6F9</color>
+    <color name="setting_text">#5D5C5D</color>
+    <color name="setting_back">#333333</color>
+    <color name="bg_setting">#F7F7F7</color>
+    <color name="bg_col_white">#ffffff</color>
+    <color name="bg_col_att">#b1b1b1</color>
+    <color name="detail_bg">#FFFFFF</color>
+    <color name="detail_main_text">#202124</color>
+    <color name="detail_sub_text">#999999</color>
+    <color name="action_icon_bg">#262626</color>
+    <color name="compo_bg">#FFFFFF</color>
+    <color name="compose">#F7F7F7</color>
+    <color name="drawer_back">#FFFFFF</color>
+    <color name="popup_back">#ffffff</color>
+    <color name="rat_sub_txt">#7D848E</color>
+    <color name="msg_backg_bl">#292625</color>
+    <color name="cam_color">#009CE1</color>
+    <color name="med_color">#FD2F75</color>
+    <color name="con_color">#C064F2</color>
+    <color name="loc_color">#F35D33</color>
+    <color name="msg_color">#1EAA52</color>
+    <color name="con_back">#F4F4F4</color>
+    <color name="con_for">#9B9B9B</color>
+</resources>

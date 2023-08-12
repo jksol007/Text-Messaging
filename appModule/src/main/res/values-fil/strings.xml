@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="rate_text">Gusto mo bang maglaan ng ilang sandali upang i-rate ito?\nHindi ito tatagal ng higit sa isang minuto..</string>
+    <string name="update_text">Nous avons ajouté de nouvelles fonctionnalités et corrigé quelques bugs pour rendre votre expérience aussi fluide que possible.</string>
+
+    <string name="exit_warning">Êtes-vous sûr de vouloir quitter?</string>
+    <string name="exit_yes">Oui</string>
+    <string name="exit_cancel">Annuler</string>
+    <string name="title_rate">Profiter de l\'application?</string>
+    <string name="rate_txt">Évaluez nous</string>
+    <string name="notkown">Pas maintenant</string>
+
+</resources>
